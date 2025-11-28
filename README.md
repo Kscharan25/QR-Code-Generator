@@ -20,7 +20,8 @@
 <br>
 
 <h2>Preview</h2>
-(./qrcodegeneratorscreenshot.png)
+![Preview](./qrcode generator screenshot.png)
+
 
 <br>
 
