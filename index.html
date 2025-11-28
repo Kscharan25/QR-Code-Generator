@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>QR Generator</h1>
+        <p>Paste a URL or enter text to create a QR code</p>
+
+        <div class="input-group">
+            <input type="text"  id="qrText" placeholder="Enter text or URL here">
+        </div>
+
+        <div class="qr-code-box" id="imgBox">
+            <span id="placeholderText">OR Code will appear here</span>
+            <div id="loader"></div>
+            <img src="" alt="" id="qrImage">
+             
+        </div>
+
+        <button class="btn-generate">Generate QR Code</button>
+        <button class="btn-download">Download PNG</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
